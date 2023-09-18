@@ -12,6 +12,17 @@ const kanji = {
         一言: { 読み方: ['ひとこと'], form: '名詞、する動詞', 意味: "a brief word (to say)" },
 
         // Unit L_2
+        入社: { 読み方: ['にゅうしゃ'], form: '名詞、する動詞、自動詞', 意味: "joining a company" },
+        文房具: { 読み方: ['ぶんぼうぐ'], form: '名詞', 意味: "stationery" },
+        家具: { 読み方: ['かぐ'], form: '名詞', 意味: "furniture" },
+        製造販売: { 読み方: ['せいぞうはんばい'], form: '名詞', 意味: "manufacture and sales" },
+        本社: { 読み方: ['ほんしゃ'], form: '名詞', 意味: "headquarters, main office" },
+        席: { 読み方: ['せき'], form: '名詞', 意味: "seat, one's desk" },
+        遠慮なく: { 読み方: ['えんりょなく'], form: '副詞', 意味: "without reservation" },
+        それとも: { 読み方: [''], form: '接続詞', 意味: "or" },
+        それと: { 読み方: [''], form: '接続詞', 意味: "also" },
+        備品: { 読み方: ['びひん'], form: '名詞', 意味: "equipment, office workers use this word to refer to office supplies in general, including paper, notebooks, writing utensils, paperclips, etc." },
+        必要: { 読み方: ['ひつよう'], form: 'な形容詞', 意味: "necessary, essential" },
         //: { 読み方: [''], form: '', 意味: "" },
     },
     kaku: {
@@ -44,7 +55,7 @@ const kanji = {
         "supervisor": { 読み方: ['主任'], form: '名詞', 意味: "しゅにん" },
 
         // Unit L_2
-        
+
         // : { 読み方: [''], form: '', 意味: ""  },
     }
 }
