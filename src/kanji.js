@@ -10,10 +10,14 @@ const kanji = {
         海外事業部: { 読み方: ['かいがいじぎょうぶ'], form: '名詞', 意味: "overseas department" },
         ことになる: { 読み方: ['V〜ことになる'], form: '表現', 意味: "it is decided that" },
         一言: { 読み方: ['ひとこと'], form: '名詞、する動詞', 意味: "a brief word (to say)" },
+
+        // Unit L_2
         //: { 読み方: [''], form: '', 意味: "" },
     },
     kaku: {
         // Unit L_1
+
+        // Unit L_2
         
         // : { 読み方: [''], form: '', 意味: "" },
 
@@ -38,6 +42,9 @@ const kanji = {
         "section manager": { 読み方: ['課長'], form: '名詞', 意味: "かちょう" },
         "chief": { 読み方: ['係長'], form: '名詞', 意味: "かかりちょう" },
         "supervisor": { 読み方: ['主任'], form: '名詞', 意味: "しゅにん" },
+
+        // Unit L_2
+        
         // : { 読み方: [''], form: '', 意味: ""  },
     }
 }
