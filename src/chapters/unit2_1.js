@@ -23,11 +23,11 @@ const unit2_1 = {
         せき: { 読み方: ['席'], form: '名詞', 意味: "seat, one's desk" },
         えんりょなく: { 読み方: ['遠慮なく'], form: '副詞', 意味: "without reservation" },
         びひん: { 読み方: ['備品'], form: '名詞', 意味: "equipment, office workers use this word to refer to office supplies in general, including paper, notebooks, writing utensils, paperclips, etc." },
-        ひつよう: { 読み方: ['必要'], form: 'な形容詞', 意味: "necessary, essential" },f
+        ひつよう: { 読み方: ['必要'], form: 'な形容詞', 意味: "necessary, essential" },
     },
 
     yomerebaii: {
-
+        stationery: { 読み方: ['文房具'], form: '名詞', 意味: "ぶんぼうぐ" },
     },
 }
 
