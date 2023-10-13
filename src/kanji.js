@@ -41,6 +41,8 @@ const kanji = {
         くだけた表現: { 読み方: ['くだけたひょうげん'], form: '名詞', 意味: "informal expression" },
         部下: { 読み方: ['ぶか'], form: '名詞', 意味: "subordinate" },
         労う: { 読み方: ['ねぎらう'], form: '五段動詞、他動詞', 意味: "to thank for, to reward someone for their services" },
+        
+        // Unit L_3
         //: { 読み方: [''], form: '', 意味: "" },
     },
     kaku: {
@@ -71,7 +73,9 @@ const kanji = {
         まちがえる: { 読み方: ['間違える'], form: '一段動詞、他動詞', 意味: "to make a mistake" },
         りょうめん: { 読み方: ['両面'], form: '名詞', 意味: "both sides" },
         はいしゃ: { 読み方: ['歯医者'], form: '名詞', 意味: "dentist" },
-        // : { 読み方: [''], form: '', 意味: "" },
+        
+        // Unit L_3
+        //: { 読み方: [''], form: '', 意味: "" },
 
 
     },
@@ -109,7 +113,9 @@ const kanji = {
         'informal expression': { 読み方: ['砕けた表現'], form: '名詞', 意味: "くだけたひょうげん" },
         subordinate: { 読み方: ['部下'], form: '名詞', 意味: "ぶか" },
         'to thank for': { 読み方: ['労う'], form: '五段動詞、他動詞', 意味: "ねぎらう" },
-        // : { 読み方: [''], form: '', 意味: ""  },
+        
+        // Unit L_3
+        //: { 読み方: [''], form: '', 意味: "" },
     }
 }
 export default kanji;   
