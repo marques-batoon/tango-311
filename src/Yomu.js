@@ -160,7 +160,7 @@ class Yomu extends React.Component {
             this.state={
                 characters: Object.keys(unit3_1.tango),
                 set: "tango",
-                setName: "U3 単語 1",
+                setName: "L3 単語",
                 num: 0,
                 shuffleHide: "",
                 yomikataButton: "",
@@ -175,7 +175,7 @@ class Yomu extends React.Component {
             this.state = {
                 characters: Object.keys(unit3_1.kaku),
                 set: "kaku",
-                setName: "U3_1 書き方を覚える漢字",
+                setName: "L3 書き方を覚える漢字",
                 num: 0,
                 shuffleHide: "",
                 yomikataButton: "",
@@ -190,7 +190,7 @@ class Yomu extends React.Component {
             this.state = {
                 characters: Object.keys(unit3_1.yomerabaii),
                 set: "yomu",
-                setName: "U3_1 読み方を覚える漢字",
+                setName: "L3 翻訳を覚える単語",
                 num: 0,
                 shuffleHide: "",
                 yomikataButton: "",
@@ -201,86 +201,11 @@ class Yomu extends React.Component {
                 nextDis: false,
             };
         }
-        else if (test==='?set=u3-tango-1_sankou'){
-            this.state={
-                characters: Object.keys(unit3_1_sankou.tango),
-                set: "tango",
-                setName: "U3 参考にする単語 1",
-                num: 0,
-                shuffleHide: "",
-                yomikataButton: "",
-                yomikataClass: "d-none",
-                imiButton: "",
-                imiClass: "d-none imi",
-                prevDis: true,
-                nextDis: false,
-            };
-        }
-        else if (test==='?set=u3-tango-2'){
-            this.state={
-                characters: Object.keys(unit3_2.tango),
-                set: "tango",
-                setName: "U3 単語 2",
-                num: 0,
-                shuffleHide: "",
-                yomikataButton: "",
-                yomikataClass: "d-none",
-                imiButton: "",
-                imiClass: "d-none imi",
-                prevDis: true,
-                nextDis: false,
-            }
-        }
-        else if (test==='?set=u3-kaku-2') {
-            this.state = {
-                characters: Object.keys(unit3_2.kaku),
-                set: "kaku",
-                setName: "U3_2 書き方を覚える漢字",
-                num: 0,
-                shuffleHide: "",
-                yomikataButton: "",
-                yomikataClass: "d-none",
-                imiButton: "",
-                imiClass: "d-none imi",
-                prevDis: true,
-                nextDis: false,
-            };
-        }
-        else if (test==='?set=u3-yomu-2') {
-            this.state = {
-                characters: Object.keys(unit3_2.yomerabaii),
-                set: "yomu",
-                setName: "U3_2 読み方を覚える漢字",
-                num: 0,
-                shuffleHide: "",
-                yomikataButton: "",
-                yomikataClass: "d-none",
-                imiButton: "",
-                imiClass: "d-none imi",
-                prevDis: true,
-                nextDis: false,
-            };
-        }
-        else if (test==='?set=u3-tango-2_sankou'){
-            this.state={
-                characters: Object.keys(unit3_2_sankou.tango),
-                set: "tango",
-                setName: "U3 参考にする単語 2",
-                num: 0,
-                shuffleHide: "",
-                yomikataButton: "",
-                yomikataClass: "d-none",
-                imiButton: "",
-                imiClass: "d-none imi",
-                prevDis: true,
-                nextDis: false,
-            }
-        }
-        else if (test==='?set=u4-tango-1'){
+        else if (test==='?set=L4-tango'){
             this.state={
                 characters: Object.keys(unit4_1.tango),
                 set: "tango",
-                setName: "U4 単語 1",
+                setName: "L4 単語",
                 num: 0,
                 shuffleHide: "",
                 yomikataButton: "",
@@ -291,11 +216,11 @@ class Yomu extends React.Component {
                 nextDis: false,
             }
         }
-        else if (test==='?set=u4-kaku-1') {
+        else if (test==='?set=L4-kaku') {
             this.state = {
-                characters: Object.keys(unit4_1.kaku),
+                characters: Object.keys(unit3_1.kaku),
                 set: "kaku",
-                setName: "U4_1 書き方を覚える漢字",
+                setName: "L4 書き方を覚える漢字",
                 num: 0,
                 shuffleHide: "",
                 yomikataButton: "",
@@ -306,11 +231,11 @@ class Yomu extends React.Component {
                 nextDis: false,
             };
         }
-        else if (test==='?set=u4-yomu-1') {
+        else if (test==='?set=L4-yomu') {
             this.state = {
-                characters: Object.keys(unit4_1.yomerabaii),
+                characters: Object.keys(unit3_1.yomerabaii),
                 set: "yomu",
-                setName: "U3_1 読み方を覚える漢字",
+                setName: "L4 翻訳を覚える単語",
                 num: 0,
                 shuffleHide: "",
                 yomikataButton: "",
