@@ -218,7 +218,7 @@ class Yomu extends React.Component {
         }
         else if (test==='?set=L4-kaku') {
             this.state = {
-                characters: Object.keys(unit3_1.kaku),
+                characters: Object.keys(unit4_1.kaku),
                 set: "kaku",
                 setName: "L4 書き方を覚える漢字",
                 num: 0,
