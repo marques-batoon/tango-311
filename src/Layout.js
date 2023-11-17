@@ -28,7 +28,7 @@ const Layout = (props) => {
                         <FontAwesomeIcon icon={['fab', 'github']} />
                     </a>
                 </div>
-                <p className="text-center">©2022 Marques Batoon</p>
+                <p className="text-center">©2023 Marques Batoon</p>
             </footer>
         </React.Fragment>
     );

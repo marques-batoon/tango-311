@@ -11,7 +11,7 @@ import unit3_1_sankou from './chapters/unit3_1_sankou';
 import unit3_2 from './chapters/unit3_2';
 import unit3_2_sankou from './chapters/unit3_2_sankou';
 import unit4_1 from './chapters/unit4_1';
-import unit4_1_sankou from './chapters/unit4_1_sankou';
+import unit5_1 from './chapters/unit5_1';
 
 class Yomu extends React.Component {
     constructor(props) {
@@ -247,7 +247,7 @@ class Yomu extends React.Component {
         }
         else if (test==='?set=L4-yomu') {
             this.state = {
-                characters: Object.keys(unit3_1.yomerabaii),
+                characters: Object.keys(unit4_1.yomerabaii),
                 set: "yomu",
                 setName: "L4 翻訳を覚える単語",
                 num: 0,
@@ -261,11 +261,11 @@ class Yomu extends React.Component {
                 button1: "英語",
             };
         }
-        else if (test==='?set=u4-tango-1_sankou'){
+        else if (test==='?set=L5-tango'){
             this.state={
-                characters: Object.keys(unit4_1_sankou.tango),
+                characters: Object.keys(unit5_1.tango),
                 set: "tango",
-                setName: "U4 参考にする単語 1",
+                setName: "L5 単語",
                 num: 0,
                 shuffleHide: "",
                 yomikataButton: "",
@@ -274,8 +274,42 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "読み方",
+            }
+        }
+        else if (test==='?set=L5-kaku') {
+            this.state = {
+                characters: Object.keys(unit5_1.kaku),
+                set: "kaku",
+                setName: "L5 書き方を覚える漢字",
+                num: 0,
+                shuffleHide: "",
+                yomikataButton: "",
+                yomikataClass: "d-none",
+                imiButton: "",
+                imiClass: "d-none imi",
+                prevDis: true,
+                nextDis: false,
+                button1: "漢字",
             };
         }
+        else if (test==='?set=L5-yomu') {
+            this.state = {
+                characters: Object.keys(unit5_1.yomerabaii),
+                set: "yomu",
+                setName: "L5 翻訳を覚える単語",
+                num: 0,
+                shuffleHide: "",
+                yomikataButton: "",
+                yomikataClass: "d-none",
+                imiButton: "",
+                imiClass: "d-none imi",
+                prevDis: true,
+                nextDis: false,
+                button1: "英語",
+            };
+        }
+
 
 
     }
