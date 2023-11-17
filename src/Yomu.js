@@ -34,6 +34,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "読み方",
             }
         }
         else if (test==='?set=kanji-yomerebaii'){
@@ -49,6 +50,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "日本語",
             }
         }
         else if (test==='?set=kanji-kaku'){
@@ -64,6 +66,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "漢字",
             }
         }
         else if (test==='?set=L1-tango'){
@@ -79,6 +82,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "読み方",
             }
         }
         else if (test==='?set=u1-kaku-1') {
@@ -94,6 +98,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "漢字",
             };
         }
         else if (test==='?set=L1-yomu') {
@@ -109,6 +114,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "日本語",
             };
         }
         else if (test==='?set=L2-tango'){
@@ -124,6 +130,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "読み方",
             }
         }
         else if (test==='?set=L2-kaku') {
@@ -139,6 +146,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "漢字",
             };
         }
         else if (test==='?set=L2-yomu') {
@@ -154,6 +162,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "日本語",
             };
         }
         else if (test==='?set=L3-tango'){
@@ -169,6 +178,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "読み方",
             }
         }
         else if (test==='?set=L3-kaku') {
@@ -184,6 +194,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "漢字",
             };
         }
         else if (test==='?set=L3-yomu') {
@@ -199,6 +210,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "日本語",
             };
         }
         else if (test==='?set=L4-tango'){
@@ -214,6 +226,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "読み方",
             }
         }
         else if (test==='?set=L4-kaku') {
@@ -229,6 +242,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "漢字",
             };
         }
         else if (test==='?set=L4-yomu') {
@@ -244,6 +258,7 @@ class Yomu extends React.Component {
                 imiClass: "d-none imi",
                 prevDis: true,
                 nextDis: false,
+                button1: "英語",
             };
         }
         else if (test==='?set=u4-tango-1_sankou'){
@@ -327,7 +342,7 @@ class Yomu extends React.Component {
     }
 
     render() {
-        const { characters, set, setName, num, shuffleHide, yomikataButton, yomikataClass, imiButton, imiClass, prevDis, nextDis } = this.state;
+        const { characters, set, setName, num, shuffleHide, yomikataButton, yomikataClass, imiButton, imiClass, prevDis, nextDis, button1 } = this.state;
 
         const setChooser = () => {
             if (set==="yomu") {
@@ -378,7 +393,7 @@ class Yomu extends React.Component {
                     <h1 className="kanji">{characters[num]}</h1>
                 </div>
                 <div className="center">
-                    <button className={yomikataButton} onClick={this.yomikata}>読み方</button>
+                    <button className={yomikataButton} onClick={this.yomikata}>{button1}</button>
                     <h2 className={yomikataClass}> {setChooser()}</h2>
                 </div>
                 <div className="center">
