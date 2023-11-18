@@ -12,6 +12,8 @@ import unit3_2 from './chapters/unit3_2';
 import unit3_2_sankou from './chapters/unit3_2_sankou';
 import unit4_1 from './chapters/unit4_1';
 import unit5_1 from './chapters/unit5_1';
+import { ReactFuri } from 'react-furi';
+
 
 class Yomu extends React.Component {
     constructor(props) {

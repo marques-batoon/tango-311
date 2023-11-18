@@ -7544,6 +7544,11 @@ jsonpath@^1.1.1:
     object.assign "^4.1.4"
     object.values "^1.1.6"
 
+just-zip-it@^3.0.2:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/just-zip-it/-/just-zip-it-3.2.0.tgz"
+  integrity sha512-ZJxc8mLz8XkaoOegJ237Xuo3ZQB5zUN/8BTXqalBJbh/uj+ahfJbOJKadJPmXDBbxHzh+MQYH43VxV5TlQvlfw==
+
 keyv@^4.5.3:
   version "4.5.4"
   resolved "https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz"
@@ -9829,7 +9834,7 @@ react-dev-utils@^11.0.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@*, react-dom@^17.0.2:
+react-dom@*, react-dom@^16.2.0, react-dom@^17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -9842,6 +9847,14 @@ react-error-overlay@^6.0.9:
   version "6.0.11"
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
+
+react-furi@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/react-furi/-/react-furi-2.0.2.tgz"
+  integrity sha512-VCaYDuiMdAA+IL10+zE0VhmumgwjeqwuulinB23gJCwLcDD0W7BdRrTsjnBhc9QoUGM6U3QpHZvZIgw4jkixNg==
+  dependencies:
+    just-zip-it "^3.0.2"
+    wanakana "^5.2.0"
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -9967,7 +9980,7 @@ react-scripts@4.0.1:
   optionalDependencies:
     fsevents "^2.1.3"
 
-react@*, react@^17.0.2, react@>=15, react@>=16.x, react@17.0.2:
+react@*, react@^16.2.0, react@^17.0.2, react@>=15, react@>=16.x, react@17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
@@ -12028,6 +12041,11 @@ walker@^1.0.7, walker@~1.0.5:
   integrity sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==
   dependencies:
     makeerror "1.0.12"
+
+wanakana@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/wanakana/-/wanakana-5.2.0.tgz"
+  integrity sha512-5oYP9ZLfj181aldBy3JB83UoMH0YRl5QW/AgvXT56ck/n9N6/Zj9N/e04QGBtqNpmME84M3kbV1Ev3KdxXlzGg==
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
