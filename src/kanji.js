@@ -128,6 +128,12 @@ const kanji = {
         遠慮: { 読み方: ['えんりょ'], form: '名詞、する動詞', 意味: "reserve, constraint, restraint, modesty" },
         結構: { 読み方: ['けっこう'], form: '副詞', 意味: "pretty, quite, rather" },
         きつい: { 読み方: [''], form: 'い形容詞', 意味: "tough, tight, hard" },
+        支援: { 読み方: ['しえん'], form: '名詞、する動詞、他動詞', 意味: "support, assistance" },
+        費用: { 読み方: ['ひよう'], form: '名詞', 意味: "cost, expense" },
+        効果: { 読み方: ['こうか'], form: '名詞', 意味: "effect" },
+        職場: { 読み方: ['しょくば'], form: '名詞', 意味: "workplace" },
+        準備: { 読み方: ['じゅんび'], form: '名詞、する動詞、他動詞', 意味: "preparation, arrangements" },
+        比較的: { 読み方: ['ひかくてき'], form: '副詞', 意味: "comparatively, relatively" },
         //: { 読み方: [''], form: '', 意味: "" },
     },
     kaku: {
@@ -222,6 +228,12 @@ const kanji = {
         ようい: { 読み方: ['用意'], form: '名詞、する動詞、他動詞', 意味: "preparation, provision" },
         えんりょ: { 読み方: ['遠慮'], form: '名詞、する動詞', 意味: "reserve, constraint, restraint, modesty" },
         けっこう: { 読み方: ['結構'], form: '副詞', 意味: "pretty, quite, rather" },
+        ふえる: { 読み方: ['増える'], form: '一段動詞、自動詞', 意味: "to increase" },
+        ひよう: { 読み方: ['費用'], form: '名詞', 意味: "cost, experience" },
+        こうか: { 読み方: ['効果'], form: '名詞', 意味: "effect" },
+        しょくば: { 読み方: ['職場'], form: '名詞', 意味: "workplace" },
+        じゅんび: { 読み方: ['準備'], form: '名詞、する動詞、他動詞', 意味: "preparation, arrangements" },
+        ひかくてき: { 読み方: ['比較的'], form: '副詞', 意味: "comparatively, relatively" },
         //: { 読み方: [''], form: '', 意味: "" },
 
 
